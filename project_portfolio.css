@@ -9,9 +9,9 @@ body{
 }
 .main-navebar{
     position: fixed;
-    top:0px,
-    left:0px;
-    right:0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ span{
     color: white;
 }
 .services-contener{
-    width: 100%x; 
+    width: 100%; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -147,31 +147,40 @@ span{
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
-    width: 27%;
-    height: 420px;
+    width: 23%;
+    height: 320px;
     border-radius: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 .box2{
     height: auto;
     background-color:rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
-    width: 27%;
+    width: 23%;
     height: 250px;
     border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .box3{
     height: auto;
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
-    width: 27%;
-    height: 420px;
+    width: 23%;
+    height: 320px;
     border-radius: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .box1:hover{
     background-color: red;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .box2:hover{
     background-color: red;
@@ -197,7 +206,7 @@ span{
 }
 .skill-content{
     height: 400px;
-    width: 600px;
+    width: 100%;
     padding-top: 50px;
     font-size: 24px;
 }
@@ -326,7 +335,8 @@ span{
 }
 @media (max-width: 620px){
     .main-navebar{
-        position: fixed;
+        display: flex;
+
     }
     .nave-bar a{
         display: none;
@@ -368,7 +378,33 @@ span{
         flex-direction: column;
     }
     .box2{
-       margin-top: 30px;
-       margin-bottom: 30px;
+       margin-top: 60px;
+       margin-bottom: 60px;
     } 
+    .form{
+        height: auto;
+        width: 600px;
+        border-radius: 5px;
+    }
+    #text{
+        width: 150px;
+        height: 25px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    #Subject{
+        width: 320px;
+        height: 25px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    #project{
+        width: 320px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+    .box1 ,.box2 ,.box3{
+        width: 55%;
+    }
 }
