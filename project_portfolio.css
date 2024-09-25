@@ -1,0 +1,371 @@
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    height: 700px;
+    background-image: url(https://wallpapers.com/images/hd/diamond-design-on-black-tablet-ifmqrm606qu488ms.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.main-navebar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blueviolet;
+    z-index: 10;
+} 
+.head{
+    color: white;
+}
+span{
+    color: red;
+} 
+.nave-bar{
+    padding-top: 20px;
+    margin-left: 500px;
+   
+}
+.nave-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.nave-bar a:hover{
+    border: 2px solid black;
+    padding: 5px;
+}
+.information{
+    color: white;
+    font-size: 25px;
+    padding-top: 170px;
+    margin-left: 90px;
+}
+.information input{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.information input:hover{
+    background-color: white;
+    color: black;
+}
+.about-fixe{
+    height: 25px;
+    width: 20px;
+    background-color: red;
+    margin-top: 700px;
+    margin-left: 1370px;
+    position: fixed;
+    top: 30px;
+    border-radius: 5px;
+}
+.about-fixe a{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+.about-head{
+    text-align: center;
+    height: 200px;
+}
+.main-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-photo img{
+    height: 400px;
+    width: 50%;
+    padding-left: 100px;
+}
+.about-photo{
+    height: 400px;
+    width: 50%;
+}
+.about-details{
+    height: 400px;
+    width: 50%;
+    padding-top: 20px;    
+}
+.about-details span{
+    color: red;
+}
+.about-details input{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30PX;
+    margin-left: 30px;
+}
+.about-details input:hover{
+    background-color: white;
+    color: red;
+}
+.about-head span{
+    color: black;
+}
+.about-details:hover{
+    background-color: black;
+    color: white;
+}
+.services{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.services-head{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.services-head p{
+    color: red;
+}
+.services-head span{
+    color: white;
+}
+.services-contener{
+    width: 1400px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    align-items: center;
+
+}
+.box1{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+    width: 27%;
+    height: 420px;
+    border-radius: 10px;
+} 
+.box2{
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+    width: 27%;
+    height: 250px;
+    border-radius: 10px;
+}
+.box3{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+    width: 27%;
+    height: 420px;
+    border-radius: 10px;
+}
+.box1:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+.box2:hover{
+    background-color: red;
+    transform: scale(1.1);   
+}
+.box3:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+/* page3 */
+
+.skill-head{
+    text-align: center;
+}
+.skill-head p{
+    color: red;
+}
+.skill-head span{
+    color: black;
+}
+.skills{
+    height: 700px;
+}
+.skill-content{
+    height: 400px;
+    width: 600px;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.skill-content input{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+.skill-content input:hover{
+    background-color: black;
+    border: 2px solid red;
+}
+.skill-main{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skillS-parcent{
+    height: 400px;
+    width: 600px;
+    font-size: 20px;
+}
+.skillS-parcent{
+    display: flex;
+    flex-direction: column;
+}
+.skill1{
+    display: flex;
+    justify-content: space-between;
+}
+.main1{
+    height: 5px;
+    width: 100%;
+    background-color: gray;
+}
+.chaild1{
+    height: 5px;
+    width: 80%;
+    background-color: red;
+}
+.chaild2{
+    height: 5px;
+    width: 76%;
+    background-color: red;
+}
+.chaild3{
+    height: 5px;
+    width: 50%;
+    background-color: red;
+}
+.chaild4{
+    height: 5px;
+    width: 56%;
+    background-color: red;
+}
+.chaild5{
+    height: 5px;
+    width: 70%;
+    background-color: red;
+}
+.contact-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.contact-detail{
+    height: 400px;
+    width: 600px;
+}
+.address{
+    padding-left: 50px;
+}
+.address p{
+    margin-top: -20px;
+}
+.form{
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+}
+#text{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#Subject{
+    width: 414px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#project{
+    width: 414px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding-top: 30px;
+}
+@media (max-width: 620px){
+    .main-navebar{
+        position: fixed;
+    }
+    .nave-bar a{
+        display: none;
+    }
+    .information{
+        font-size: 15px;
+        padding-top: 250px;
+    }
+    .main-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-photo{
+        height: 400px;
+        width: 100%;
+        padding-right: 200px;
+    }
+    .about-photo img{
+        height: 400px;
+        width: 100%;
+    }
+    .about-details{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px; 
+    }
+    .services{
+        height: 1500px;
+        background-color: rgba(0, 0, 0, 0.849);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-contener{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2{
+       margin-top: 30px;
+       margin-bottom: 30px;
+    } 
+}
