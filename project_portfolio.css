@@ -9,6 +9,9 @@ body{
 }
 .main-navebar{
     position: fixed;
+    top:0px,
+    left:0px;
+    right:0px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +135,7 @@ span{
     color: white;
 }
 .services-contener{
-    width: 1400px; 
+    width: 100%x; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
