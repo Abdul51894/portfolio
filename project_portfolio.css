@@ -1,13 +1,19 @@
-body{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
-.header{
+
+
+.header {
     height: 700px;
     background-image: url(https://wallpapers.com/images/hd/diamond-design-on-black-tablet-ifmqrm606qu488ms.jpg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.main-navebar{
+
+.main-navebar {
     position: fixed;
     top: 0px;
     right: 0px;
@@ -16,37 +22,44 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: blueviolet;
-    z-index: 10;
-} 
-.head{
+    background-color: crimson;
+    z-index: 1  ;
+}
+
+.head {
     color: white;
 }
-span{
-    color: red;
-} 
-.nave-bar{
+
+span {
+    color: rgb(0, 255, 13);
+}
+
+.nave-bar {
     padding-top: 20px;
     margin-left: 500px;
-   
+
 }
-.nave-bar a{
+
+.nave-bar a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     margin-right: 25px;
 }
-.nave-bar a:hover{
+
+.nave-bar a:hover {
     border: 2px solid black;
     padding: 5px;
 }
-.information{
+
+.information {
     color: white;
     font-size: 25px;
     padding-top: 170px;
     margin-left: 90px;
 }
-.information input{
+
+.information input {
     width: 100px;
     height: 25px;
     background-color: red;
@@ -54,11 +67,13 @@ span{
     border: none;
     border-radius: 5px;
 }
-.information input:hover{
+
+.information input:hover {
     background-color: white;
     color: black;
 }
-.about-fixe{
+
+.about-fixe {
     height: 25px;
     width: 20px;
     background-color: red;
@@ -68,38 +83,48 @@ span{
     top: 30px;
     border-radius: 5px;
 }
-.about-fixe a{
+
+.about-fixe a {
     color: red;
     text-align: center;
     text-decoration: none;
 }
-.about-head{
+
+.about-head {
     text-align: center;
     height: 200px;
 }
-.main-about{
+
+.main-about {
     display: flex;
+    flex-wrap: wrap ;
     justify-content: center;
     align-items: center;
+
 }
-.about-photo img{
-    height: 400px;
+
+.about-photo img {
+    height: 400px;  
     width: 50%;
-    padding-left: 100px;
+    text-align: center;
+    /* padding-left: 100px; */
 }
-.about-photo{
-    height: 400px;
+
+.about-photo {
     width: 50%;
+    text-align: center;
 }
-.about-details{
-    height: 400px;
+
+.about-details {
     width: 50%;
-    padding-top: 20px;    
+    padding-top: 20px;
 }
-.about-details span{
+
+.about-details span {
     color: red;
 }
-.about-details input{
+
+.about-details input {
     background-color: red;
     color: white;
     border-radius: 5px;
@@ -107,35 +132,43 @@ span{
     height: 30PX;
     margin-left: 30px;
 }
-.about-details input:hover{
+
+.about-details input:hover {
     background-color: white;
     color: red;
 }
-.about-head span{
+
+.about-head span {
     color: black;
 }
-.about-details:hover{
+
+.about-details:hover {
     background-color: black;
     color: white;
 }
-.services{
+
+.services {
     height: 700px;
     background-color: rgba(0, 0, 0, 0.849);
 }
-.services-head{
+
+.services-head {
     color: white;
     text-align: center;
     position: relative;
     top: 35px;
 }
-.services-head p{
+
+.services-head p {
     color: red;
 }
-.services-head span{
+
+.services-head span {
     color: white;
 }
-.services-contener{
-    width: 100%; 
+
+.services-contener {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -143,74 +176,95 @@ span{
     align-items: center;
 
 }
-.box1{
+
+.box1 {
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
     width: 23%;
-    height: 320px;
     border-radius: 10px;
     font-size: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
-} 
-.box2{
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 20px;
+    transition: all 0.8s;
     height: auto;
-    background-color:rgba(0, 0, 0, 0.397);
+    text-align: justify;
+}
+
+.box2 {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
     width: 23%;
-    height: 250px;
     border-radius: 10px;
     font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px; */
+    padding: 20px;
+    /* padding-right: 10px; */
+    transition: all 0.8s;
+    height: auto;
+    text-align: justify;
 }
-.box3{
+
+.box3 {
     height: auto;
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
     text-align: center;
     width: 23%;
-    height: 320px;
     border-radius: 10px;
     font-size: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 20px;
+    transition: all 0.8s;
+    height: auto;
+    text-align: justify;
 }
-.box1:hover{
+
+.box1:hover {
     background-color: red;
     transform: scale(1.05);
 }
-.box2:hover{
-    background-color: red;
-    transform: scale(1.1);   
-}
-.box3:hover{
+
+.box2:hover {
     background-color: red;
     transform: scale(1.1);
 }
+
+.box3:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
 /* page3 */
 
-.skill-head{
+.skill-head {
     text-align: center;
 }
-.skill-head p{
+
+.skill-head p {
     color: red;
 }
-.skill-head span{
+
+.skill-head span {
     color: black;
 }
-.skills{
+
+.skills {
     height: 700px;
 }
-.skill-content{
+
+.skill-content {
     height: 400px;
     width: 100%;
     padding-top: 50px;
     font-size: 24px;
 }
-.skill-content input{
+
+.skill-content input {
     color: white;
     background-color: red;
     border-radius: 5px;
@@ -218,99 +272,119 @@ span{
     height: 30px;
     width: 100px;
 }
-.skill-content input:hover{
+
+.skill-content input:hover {
     background-color: black;
     border: 2px solid red;
 }
-.skill-main{
+
+.skill-main {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.skillS-parcent{
+
+.skillS-parcent {
     height: 400px;
     width: 600px;
     font-size: 20px;
 }
-.skillS-parcent{
+
+.skillS-parcent {
     display: flex;
     flex-direction: column;
 }
-.skill1{
+
+.skill1 {
     display: flex;
     justify-content: space-between;
 }
-.main1{
+
+.main1 {
     height: 5px;
     width: 100%;
     background-color: gray;
 }
-.chaild1{
+
+.chaild1 {
     height: 5px;
     width: 80%;
     background-color: red;
 }
-.chaild2{
+
+.chaild2 {
     height: 5px;
     width: 76%;
     background-color: red;
 }
-.chaild3{
+
+.chaild3 {
     height: 5px;
     width: 50%;
     background-color: red;
 }
-.chaild4{
+
+.chaild4 {
     height: 5px;
     width: 56%;
     background-color: red;
 }
-.chaild5{
+
+.chaild5 {
     height: 5px;
     width: 70%;
     background-color: red;
 }
-.contact-main{
+
+.contact-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 100px;
 }
-.contact-detail{
+
+.contact-detail {
     height: 400px;
     width: 600px;
 }
-.address{
+
+.address {
     padding-left: 50px;
 }
-.address p{
+
+.address p {
     margin-top: -20px;
 }
-.form{
+
+.form {
     height: 400px;
     width: 600px;
     border-radius: 5px;
 }
-#text{
+
+#text {
     width: 200px;
     height: 25px;
     border-radius: 5px;
     border: 2px solid black;
 }
-#Subject{
+
+#Subject {
     width: 414px;
     height: 25px;
     border-radius: 5px;
     border: 2px solid black;
 }
-#project{
+
+#project {
     width: 414px;
     height: 50px;
     border-radius: 5px;
     border: 2px solid black;
 }
-#submit{
+
+#submit {
     width: 100px;
     height: 30px;
     background-color: red;
@@ -318,54 +392,61 @@ span{
     border: none;
     border-radius: 5px;
 }
-#submit:hover{
+
+#submit:hover {
     background-color: white;
     color: red;
     border: 2px solid red;
 }
-.footer{
+
+.footer {
     height: 70px;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
 }
-.footer p{
+
+.footer p {
     padding-top: 30px;
 }
-@media (max-width: 620px){
-    .main-navebar{
+
+@media (max-width: 600px) {
+    .main-navebar {
         display: flex;
 
     }
-    .nave-bar a{
+
+    .nave-bar a {
         display: none;
     }
-    .information{
-        font-size: 15px;
-        padding-top: 250px;
+
+    .header {
+        height: 600px;
     }
-    .main-about{
+
+    .information {
+        font-size: 15px;
+        padding-top: 150px;
+    }
+
+    .main-about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .about-photo{
-        height: 400px;
-        width: 100%;
-        padding-right: 200px;
-    }
-    .about-photo img{
-        height: 400px;
+    .main-about .about-photo img {
+        height: 250px;
         width: 100%;
     }
-    .about-details{
-        height: 300px;
+    .about-details {
         width: 100%;
-        margin-top: 20px; 
+        padding: 20px;
+        /* margin-top: 20px; */
     }
-    .services{
+
+    .services {
         height: 1500px;
         background-color: rgba(0, 0, 0, 0.849);
         display: flex;
@@ -373,38 +454,77 @@ span{
         justify-content: center;
         align-items: center;
     }
-    .services-contener{
+
+    .services-contener {
         display: flex;
         flex-direction: column;
     }
-    .box2{
-       margin-top: 60px;
-       margin-bottom: 60px;
-    } 
-    .form{
+
+    .box2 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .form {
         height: auto;
         width: 600px;
         border-radius: 5px;
     }
-    #text{
+
+    #text {
         width: 150px;
         height: 25px;
         border-radius: 5px;
         border: 2px solid black;
     }
-    #Subject{
+
+    #Subject {
         width: 320px;
         height: 25px;
         border-radius: 5px;
         border: 2px solid black;
     }
-    #project{
+
+    #project {
         width: 320px;
         height: 50px;
         border-radius: 5px;
         border: 2px solid black;
     }
-    .box1 ,.box2 ,.box3{
-        width: 55%;
+
+    .services-contener {
+        /* padding: 10px; */
+        padding-top: 80px;
+        border: none;
+    }
+
+    .services-contener .box1 .box2 .box3:hover {
+        padding: 10px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 93%;
+        padding: 20px;
+    }
+    .box1:hover {
+        transform: scale(0.9);
+        width: 99%;
+        font-size: 14px;
+    }
+    .box2:hover {
+        transform: scale(0.9);
+        width: 99%;
+        font-size: 14px;
+    }
+
+    .box3:hover {
+        transform: scale(0.9);
+        width: 99%;
+        font-size: 14px;
+    }
+    .skill-content{
+        height: auto;
     }
 }
